@@ -33,4 +33,40 @@ func main() {
 	const baseCube = 10
 	areaCube := baseCube * baseCube
 	fmt.Println("cube is: ", areaCube)
-}
+
+	x := 10 
+	y := 50
+
+	// Addition 
+
+	result := x + y
+	fmt.Println("Addition is ", result)
+
+	// Subtraction
+	
+	result = y - x
+	fmt.Println("Subtraction is ", result)
+
+	// Multiplication
+
+	result = x * y
+	fmt.Println("Multiplication is ", result)
+
+	// Division
+
+	result = x / y
+	fmt.Println("Division ", result)
+
+	// Module 
+
+	result = x % y
+	fmt.Println("Module  ", result)
+
+	// Incremental 
+	x++
+	fmt.Println("Incremental ", x)
+
+	// Decremental
+	x--
+	fmt.Print("Decremental ", x)
+ }
